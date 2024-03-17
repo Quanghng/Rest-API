@@ -5,6 +5,7 @@ const UserSchema = new mongoose.Schema({
   email: {type: String, required: true },
   authentication: {
     password: { type: String, required: true, select: false },
+    // random string of data that combined with a password -> Add complexity to the hashing process
     salt: { type: String, select: false },
     sessionToken: { type: String, select: false },
   },
