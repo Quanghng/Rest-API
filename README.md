@@ -1,6 +1,6 @@
 REST API using Node, Express, Typescript & MongoDB.
 
-#Features
+# Features
 Environment, Typescript, Nodemon setup
 MongoDB & Mongoose connect, Database creation
 Controllers creation
@@ -9,10 +9,10 @@ Cookie based authentication
 Postman testing
 Create, Read, Update
 
-##Prerequisites
+## Prerequisites
 Node version 14.x
 
-#Setup project
+# Setup project
 Install packages
 ```npm i```
 
@@ -20,5 +20,5 @@ Setup MongoDB URL
 In ```src/index.ts:```
 ```const MONGO_URL = ''; // DB URI```
 
-#Start the app
+# Start the app
 ```npm start```
